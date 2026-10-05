@@ -12,7 +12,7 @@
     return '<section class="card ' + p.id + '"><div class="price">' + p.price + '<small>por mes</small></div>' +
       '<div class="logo"><img src="' + p.logo + '" alt="' + p.name + '"></div>' +
       '<h2>' + p.name + ': Características</h2><ul>' + li + '</ul>' +
-      '<a class="btn" href="#' + p.id + '">Continuar</a></section>';
+      '<a class="btn" href="#' + p.id + '">TOCA AQUÍ PARA INSTALAR</a></section>';
   }).join('');
 
   // Secciones de guía (una por producto)
